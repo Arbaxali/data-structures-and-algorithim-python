@@ -7,6 +7,5 @@ def sortedarr(arr):
             j=j-1
     return arr        
 
-
 arr = [5,4,3,2,1]
 print(sortedarr(arr))
