@@ -1,0 +1,20 @@
+arr =[]
+
+def runninsum(arr):
+    srr = []
+    temp = 0
+    summ = 0
+    for i in arr:
+        temp = i
+        summ = summ +temp
+        srr.append(summ)
+    
+    return srr
+    
+arr = [int(item) for item in input("Enter the list items : ").split()]
+print(arr)
+    
+    
+
+num = runninsum(arr)   
+print(num)
